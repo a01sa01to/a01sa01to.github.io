@@ -1,4 +1,4 @@
-main div.material button{
+main button.material{
 	background: #1a73e8;
 	padding: 12px;
 	font-size: 16px;
@@ -7,9 +7,9 @@ main div.material button{
 	border: 0;
 	width: 100%;
 }
-main div.material button:hover{
+main button.material:hover{
 	background: #1151a5;
 }
-main div.material button:disabled{
+main button.material:disabled{
 	background: #77acf1;
 }

@@ -1,0 +1,27 @@
+main div.material select + label{
+	position: absolute;
+	font-size: 18px;
+	z-index: -1;
+	color: #aaa;
+	top: calc((46px - 27px)/2);
+	transition: .3s ease-in-out;
+}
+
+main div.material select:focus + label, main div.material select:not(:placeholder-shown) +label{
+	font-size: 14px;
+	transform: translateY(-20px);
+	z-index: 1;
+	background: #fff;
+	color: #1a73e8;
+}
+
+main div.material select{
+	position: absolute;
+	width: 100%;
+	border: 0px;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	font-size: 18px;
+	padding-left: 16px;
+}

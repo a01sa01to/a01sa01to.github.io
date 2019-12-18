@@ -22,7 +22,7 @@ main {
     margin-bottom: 16px;
     margin-top: 4px; }
 
-main div {
+main div.material {
   margin: 20px auto;
   margin-bottom: 4px;
   border: 1px #aaa solid;
@@ -33,59 +33,7 @@ main div {
   padding: 5px;
   box-sizing: border-box;
   position: relative; }
-  main div input {
-    border: 0;
-    width: calc(100% - 6px);
-    height: calc(100% - 6px);
-    position: absolute;
-    top: 3px;
-    left: 3px;
-    outline: none;
-    display: block;
-    margin: auto;
-    font-size: 24px;
-    background: transparent;
-    padding-left: 10px; }
-  main div input + label, main div select + label {
-    position: absolute;
-    font-size: 18px;
-    z-index: -1;
-    color: #aaa;
-    top: calc((46px - 27px)/2);
-    transition: .3s ease-in-out; }
-  main div input::placeholder {
-    visibility: hidden !important; }
-  main div p.msg {
+  main div.material p.msg {
     display: none; }
-  main div input:focus + label, main div input:not(:placeholder-shown) + label, main div select:focus + label, main div select:not(:placeholder-shown) + label {
-    font-size: 14px;
-    transform: translateY(-20px);
-    z-index: 1;
-    background: #fff;
-    color: #1a73e8; }
-  main div input:invalid + label {
-    color: #f00; }
-  main div select {
-    position: absolute;
-    width: 100%;
-    border: 0px;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    font-size: 18px;
-    padding-left: 16px; }
-
-button {
-  background: #1a73e8;
-  padding: 12px;
-  font-size: 16px;
-  color: #fff;
-  border-radius: 5px;
-  border: 0;
-  width: 100%; }
-  button:hover {
-    background: #1151a5; }
-  button:disabled {
-    background: #77acf1; }
 
 /*# sourceMappingURL=common.css.map */

@@ -1,0 +1,15 @@
+main div.material button{
+	background: #1a73e8;
+	padding: 12px;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 5px;
+	border: 0;
+	width: 100%;
+}
+main div.material button:hover{
+	background: #1151a5;
+}
+main div.material button:disabled{
+	background: #77acf1;
+}

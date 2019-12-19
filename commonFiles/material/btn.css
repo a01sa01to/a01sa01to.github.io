@@ -6,6 +6,7 @@ main button.material{
 	border-radius: 5px;
 	border: 0;
 	width: 100%;
+	outline: 0;
 }
 main button.material:hover{
 	background: #1151a5;

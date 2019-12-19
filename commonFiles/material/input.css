@@ -22,6 +22,7 @@ main div.material input + label{
 }
 main div.material input::placeholder{
 	visibility: hidden !important;
+	opacity: 0;
 }
 main div.material input:focus + label, main div.material input:not(:placeholder-shown) + label{
 	font-size: 14px;

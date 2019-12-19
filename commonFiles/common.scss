@@ -42,3 +42,11 @@ main div.material{
 	}
 	p.msg{ display: none }
 }
+
+@media screen and (max-width: 680px){
+	main{
+		padding: 8px;
+		box-shadow: none;
+		border-radius: none;
+	}
+}

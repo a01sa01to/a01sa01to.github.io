@@ -1,36 +1,33 @@
-main div.material input{
-	border: 0;
-	width: calc(100% - 6px);
-	height: calc(100% - 6px);
-	position: absolute;
-	top: 3px;
-	left: 3px;
-	outline: none;
-	display: block;
-	margin: auto;
-	font-size: 24px;
-	background: transparent;
-	padding-left: 10px;
-}
-main div.material input + label{
-	position: absolute;
-	font-size: 18px;
-	z-index: 1;
-	color: #aaa;
-	top: calc((46px - 27px)/2);
-	transition: .3s ease-in-out;
-}
-main div.material input::placeholder{
-	visibility: hidden !important;
-	opacity: 0;
-}
-main div.material input:focus + label, main div.material input:not(:placeholder-shown) + label{
-	font-size: 14px;
-	transform: translateY(-20px);
-	z-index: 1;
-	background: #fff;
-	color: #1a73e8;
-}
-main div.material input:invalid + label{
-	color: #f00;
-}
+main div.material input {
+  border: 0;
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  outline: none;
+  display: block;
+  margin: auto;
+  font-size: 24px;
+  background: transparent;
+  padding-left: 10px; }
+  main div.material input + label {
+    position: absolute;
+    font-size: 18px;
+    z-index: 1;
+    color: #aaa;
+    top: calc((46px - 27px)/2);
+    transition: .3s ease-in-out; }
+  main div.material input::placeholder {
+    visibility: hidden !important;
+    opacity: 0; }
+  main div.material input:focus + label, main div.material input:not(:placeholder-shown) + label {
+    font-size: 14px;
+    transform: translateY(-20px);
+    z-index: 1;
+    background: #fff;
+    color: #1a73e8; }
+  main div.material input:invalid + label {
+    color: #f00; }
+
+/*# sourceMappingURL=input.css.map */

@@ -1,0 +1,13 @@
+main button.material{
+	$bg: #1a73e8;
+	background: $bg;
+	padding: 12px;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 5px;
+	border: 0;
+	width: 100%;
+	outline: 0;
+	&:hover{ background: darken($bg, 15%); }
+	&:disabled{ background: lighten($bg, 20%); }
+}

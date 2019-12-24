@@ -1,16 +1,21 @@
-main button.material{
-	background: #1a73e8;
-	padding: 12px;
-	font-size: 16px;
-	color: #fff;
-	border-radius: 5px;
-	border: 0;
-	width: 100%;
-	outline: 0;
-}
-main button.material:hover{
-	background: #1151a5;
-}
-main button.material:disabled{
-	background: #77acf1;
-}
+main button.material {
+  background: #1a73e8;
+  padding: 12px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+  width: 100%;
+  outline: 0; }
+  main button.material:hover {
+    background: #1151a5; }
+  main button.material:disabled {
+    background: #77acf1; }
+
+main button.material:hover {
+  background: #1151a5; }
+
+main button.material:disabled {
+  background: #77acf1; }
+
+/*# sourceMappingURL=btn.css.map */

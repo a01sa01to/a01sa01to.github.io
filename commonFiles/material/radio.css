@@ -57,5 +57,11 @@ main div.material.radio {
       border-color: #1a73e8;
       color: #1a73e8;
       content: "lens"; }
+    main div.material.radio input[type=radio]:disabled + label {
+      border-color: #888;
+      color: #888; }
+      main div.material.radio input[type=radio]:disabled + label::before {
+        border-color: inherit;
+        color: inherit; }
 
 /*# sourceMappingURL=radio.css.map */

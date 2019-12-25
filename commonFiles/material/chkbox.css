@@ -46,10 +46,19 @@ main div.material.chk {
         border: 1.5px #aaa solid;
         font-size: initial;
         margin-right: 10px;
-        color: #fff; }
+        color: #fff;
+        padding-left: 2px;
+        padding-top: 2px; }
     main div.material.chk input[type=checkbox]:checked + label::before {
       background: #1a73e8;
       border-color: #1a73e8;
       content: "done"; }
+    main div.material.chk input[type=checkbox]:disabled + label {
+      border-color: #888;
+      color: #888; }
+      main div.material.chk input[type=checkbox]:disabled + label::before {
+        border-color: inherit;
+        background: #888;
+        color: #fff; }
 
 /*# sourceMappingURL=chkbox.css.map */

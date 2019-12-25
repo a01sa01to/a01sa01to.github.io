@@ -20,13 +20,15 @@ main div.material.chk{
 			top: 10.5px;
 			left: 8px;
 			font-size: 18px;
+			display: flex;
+			align-items: center;
 			&::before{
 				// ----------  Material Icons ---------- //
 				font-family: 'Material Icons';
 				font-weight: normal;
 				font-style: normal;
-				// font-size: 24px;  /* Preferred icon size */
-				font-size: 18px;
+				font-size: 28px;
+				// font-size: 18px;
 				display: inline-block;
 				line-height: 1;
 				text-transform: none;
@@ -44,34 +46,31 @@ main div.material.chk{
 				font-feature-settings: 'liga';
 				// ------------------------------------- //
 
-				content: "aa";
+				content: "check_box_outline_blank";
 				transition: 500ms;
-				width: 18px;
-				height: 18px;
-				border-radius: 3px;
-				border: 1.5px #aaa solid;
-				// padding-left: 24px;
-				font-size: initial;
-				margin-right: 10px;
-				color: #fff;
-				padding-left: 2px;
-				padding-top: 2px;
+				// width: 18px;
+				// height: 18px;
+				// border-radius: 3px;
+				// border: 1.5px #aaa solid;
+				// // padding-left: 24px;
+				// font-size: initial;
+				margin-right: 5px;
+				color: #aaa;
+				// padding-left: 2px;
+				// padding-top: 2px;
 			}
 		}
 		&:checked + label::before{
-			background: #1a73e8;
-			border-color: #1a73e8;
+			color: #1a73e8;
 			// padding-left: 0px;
-			content: "done";
+			content: "check_box";
 		}
 		&:disabled + label{
-			border-color: #888;
 			color: #888;
 			&::before{
-				border-color: inherit;
-				background: #888;
-				color: #fff;
+				color: inherit;
 			}
+
 		}
 	}
 }

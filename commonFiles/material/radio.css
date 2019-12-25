@@ -17,12 +17,14 @@ main div.material.radio {
       position: absolute;
       top: 10.5px;
       left: 8px;
-      font-size: 18px; }
+      font-size: 18px;
+      display: flex;
+      align-items: center; }
       main div.material.radio input[type=radio] + label::before {
         font-family: 'Material Icons';
         font-weight: normal;
         font-style: normal;
-        font-size: 18px;
+        font-size: 28px;
         display: inline-block;
         line-height: 1;
         text-transform: none;
@@ -38,30 +40,18 @@ main div.material.radio {
         -moz-osx-font-smoothing: grayscale;
         /* Support for IE. */
         font-feature-settings: 'liga';
-        content: "aa";
+        content: "radio_button_unchecked";
         transition: 500ms;
-        width: 18px;
-        height: 18px;
-        border-radius: 3px;
-        border: 1.5px #aaa solid;
-        font-size: initial;
-        margin-right: 10px;
-        color: #fff;
-        border-radius: 50%;
-        padding-left: 2px;
-        padding-top: 2px; }
+        margin-right: 5px;
+        color: #aaa; }
       main div.material.radio input[type=radio] + label::after {
         content: attr(data-value); }
     main div.material.radio input[type=radio]:checked + label::before {
-      background: #fff;
-      border-color: #1a73e8;
       color: #1a73e8;
-      content: "lens"; }
+      content: "radio_button_checked"; }
     main div.material.radio input[type=radio]:disabled + label {
-      border-color: #888;
       color: #888; }
       main div.material.radio input[type=radio]:disabled + label::before {
-        border-color: inherit;
         color: inherit; }
 
 /*# sourceMappingURL=radio.css.map */

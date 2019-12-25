@@ -2,6 +2,9 @@
 
 main div.material.chk{
 	position: relative;
+	display: block;
+	min-height: 40px;
+	width: 100%;
 
 	input[type=checkbox]{
 		position: absolute;

@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 main div.material.chk {
-  position: relative; }
+  position: relative;
+  display: block;
+  min-height: 40px;
+  width: 100%; }
   main div.material.chk input[type=checkbox] {
     position: absolute;
     top: 8px;

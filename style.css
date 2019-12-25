@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 body{
-  box-sizing: border-box;
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  display: grid;
-  grid-template-areas: ". . ." ". i ." ". . .";
-  grid-template-rows: .5fr max-content .5fr;
-  grid-template-columns: .5fr max-content .5fr;
+	box-sizing: border-box;
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	display: grid;
+	grid-template-areas: ". . ." ". i ." ". . .";
+	grid-template-rows: 1fr fit-content 1fr;
+	grid-template-columns: 1fr fit-content 1fr;
+	overflow: hidden;
 }
-.container{
-  grid-area: i;
+main{
+	grid-area: i;
 }

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+main div.material.chk{
+	position: relative;
+
+	input[type=checkbox]{
+		position: absolute;
+		top: 8px;
+		left: 8px;
+		width: 32px;
+		height: 32px;
+		margin: 0px;
+		z-index: 1;
+		opacity: 0;
+		& + label{
+			position: absolute;
+			top: 10.5px;
+			left: 8px;
+			font-size: 18px;
+			&::before{
+				// ----------  Material Icons ---------- //
+				font-family: 'Material Icons';
+				font-weight: normal;
+				font-style: normal;
+				// font-size: 24px;  /* Preferred icon size */
+				font-size: 18px;
+				display: inline-block;
+				line-height: 1;
+				text-transform: none;
+				letter-spacing: normal;
+				word-wrap: normal;
+				white-space: nowrap;
+				direction: ltr;
+				/* Support for all WebKit browsers. */
+				-webkit-font-smoothing: antialiased;
+				/* Support for Safari and Chrome. */
+				text-rendering: optimizeLegibility;
+				/* Support for Firefox. */
+				-moz-osx-font-smoothing: grayscale;
+				/* Support for IE. */
+				font-feature-settings: 'liga';
+				// ------------------------------------- //
+
+				content: "aa";
+				transition: 500ms;
+				width: 18px;
+				height: 18px;
+				border-radius: 3px;
+				border: 1.5px #aaa solid;
+				// padding-left: 24px;
+				font-size: initial;
+				margin-right: 10px;
+				color: #fff;
+			}
+		}
+		&:checked + label::before{
+			background: #1a73e8;
+			border-color: #1a73e8;
+			// padding-left: 0px;
+			content: "done";
+		}
+	}
+}

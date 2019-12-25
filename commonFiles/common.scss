@@ -29,7 +29,7 @@ main{
 		margin-top: 4px;
 	}
 }
-main div.material{
+main div.material:not(.chk):not(.radio){
 	margin: 20px auto;
 	margin-bottom: 4px;
 	border: 1px #aaa solid;

@@ -25,7 +25,7 @@ main {
     margin-bottom: 16px;
     margin-top: 4px; }
 
-main div.material {
+main div.material:not(.chk):not(.radio) {
   margin: 20px auto;
   margin-bottom: 4px;
   border: 1px #aaa solid;
@@ -36,9 +36,9 @@ main div.material {
   padding: 5px;
   box-sizing: border-box;
   position: relative; }
-  main div.material * {
+  main div.material:not(.chk):not(.radio) * {
     outline: 0; }
-  main div.material p.msg {
+  main div.material:not(.chk):not(.radio) p.msg {
     display: none; }
 
 @media screen and (max-width: 680px) {

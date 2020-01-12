@@ -17,7 +17,7 @@ main {
   border-radius: 12px; }
   main a {
     color: #555; }
-  main h1, main p {
+  main h1, main p.center {
     text-align: center; }
   main p.hint {
     font-size: 12px;

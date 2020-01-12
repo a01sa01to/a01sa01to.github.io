@@ -19,7 +19,10 @@ main div.material.chk {
       left: 8px;
       font-size: 18px;
       display: flex;
-      align-items: center; }
+      align-items: center;
+      transform: translateY(0px);
+      color: #000;
+      z-index: 0; }
       main div.material.chk input[type=checkbox] + label::before {
         font-family: 'Material Icons';
         font-weight: normal;

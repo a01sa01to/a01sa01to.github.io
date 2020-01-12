@@ -22,6 +22,9 @@ main div.material.chk{
 			font-size: 18px;
 			display: flex;
 			align-items: center;
+			transform: translateY(0px);
+			color: #000;
+			z-index: 0;
 			&::before{
 				// ----------  Material Icons ---------- //
 				font-family: 'Material Icons';

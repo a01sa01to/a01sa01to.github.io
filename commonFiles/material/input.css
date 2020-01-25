@@ -17,6 +17,7 @@ main div.material input {
     z-index: 1;
     color: #aaa;
     top: calc((46px - 27px)/2);
+    left: 8px;
     transition: .3s ease-in-out; }
   main div.material input::placeholder {
     visibility: hidden !important;
@@ -27,7 +28,7 @@ main div.material input {
     z-index: 1;
     background: #fff;
     color: #1a73e8; }
-  main div.material input:invalid + label {
+  main div.material input:invalid:not(:placeholder-shown) + label {
     color: #f00; }
 
 /*# sourceMappingURL=input.css.map */

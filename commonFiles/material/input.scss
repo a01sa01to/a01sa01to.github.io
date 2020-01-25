@@ -17,6 +17,7 @@ main div.material input{
 		z-index: 1;
 		color: #aaa;
 		top: calc((46px - 27px)/2);
+		left: 8px;
 		transition: .3s ease-in-out;
 	}
 	&::placeholder{
@@ -30,7 +31,7 @@ main div.material input{
 		background: #fff;
 		color: #1a73e8;
 	}
-	&:invalid + label{
+	&:invalid:not(:placeholder-shown) + label{
 		color: #f00;
 	}
 }

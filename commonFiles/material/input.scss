@@ -14,7 +14,7 @@ main div.material input{
 	& + label{
 		position: absolute;
 		font-size: 18px;
-		z-index: 1;
+		z-index: -1;
 		color: #aaa;
 		top: calc((46px - 27px)/2);
 		left: 8px;

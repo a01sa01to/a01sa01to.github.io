@@ -3,56 +3,75 @@ main div.material.chk {
   position: relative;
   display: block;
   min-height: 40px;
-  width: 100%; }
-  main div.material.chk input[type=checkbox] {
-    position: absolute;
-    top: 8px;
-    left: 8px;
-    width: 32px;
-    height: 32px;
-    margin: 0px;
-    z-index: 1;
-    opacity: 0; }
-    main div.material.chk input[type=checkbox] + label {
-      position: absolute;
-      top: 10.5px;
-      left: 8px;
-      font-size: 18px;
-      display: flex;
-      align-items: center;
-      transform: translateY(0px);
-      color: #000;
-      z-index: 0; }
-      main div.material.chk input[type=checkbox] + label::before {
-        font-family: 'Material Icons';
-        font-weight: normal;
-        font-style: normal;
-        font-size: 28px;
-        display: inline-block;
-        line-height: 1;
-        text-transform: none;
-        letter-spacing: normal;
-        word-wrap: normal;
-        white-space: nowrap;
-        direction: ltr;
-        /* Support for all WebKit browsers. */
-        -webkit-font-smoothing: antialiased;
-        /* Support for Safari and Chrome. */
-        text-rendering: optimizeLegibility;
-        /* Support for Firefox. */
-        -moz-osx-font-smoothing: grayscale;
-        /* Support for IE. */
-        font-feature-settings: 'liga';
-        content: "check_box_outline_blank";
-        transition: 500ms;
-        margin-right: 5px;
-        color: #aaa; }
-    main div.material.chk input[type=checkbox]:checked + label::before {
-      color: #1a73e8;
-      content: "check_box"; }
-    main div.material.chk input[type=checkbox]:disabled + label {
-      color: #888; }
-      main div.material.chk input[type=checkbox]:disabled + label::before {
-        color: inherit; }
+  width: 100%;
+}
 
+main div.material.chk input[type=checkbox] {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 32px;
+  height: 32px;
+  margin: 0px;
+  z-index: 1;
+  opacity: 0;
+}
+
+main div.material.chk input[type=checkbox] + label {
+  position: absolute;
+  top: 10.5px;
+  left: 8px;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  color: #000;
+  z-index: 0;
+}
+
+main div.material.chk input[type=checkbox] + label::before {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  -webkit-font-feature-settings: 'liga';
+          font-feature-settings: 'liga';
+  content: "check_box_outline_blank";
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  margin-right: 5px;
+  color: #aaa;
+}
+
+main div.material.chk input[type=checkbox]:checked + label::before {
+  color: #1a73e8;
+  content: "check_box";
+}
+
+main div.material.chk input[type=checkbox]:disabled + label {
+  color: #888;
+}
+
+main div.material.chk input[type=checkbox]:disabled + label::before {
+  color: inherit;
+}
 /*# sourceMappingURL=chkbox.css.map */

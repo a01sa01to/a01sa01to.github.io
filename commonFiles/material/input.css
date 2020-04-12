@@ -10,25 +10,50 @@ main div.material input {
   margin: auto;
   font-size: 24px;
   background: transparent;
-  padding-left: 10px; }
-  main div.material input + label {
-    position: absolute;
-    font-size: 18px;
-    z-index: 1;
-    color: #aaa;
-    top: calc((46px - 27px)/2);
-    left: 8px;
-    transition: .3s ease-in-out; }
-  main div.material input::placeholder {
-    visibility: hidden !important;
-    opacity: 0; }
-  main div.material input:focus + label, main div.material input:not(:placeholder-shown) + label {
-    font-size: 14px;
-    transform: translateY(-20px);
-    z-index: 1;
-    background: #fff;
-    color: #1a73e8; }
-  main div.material input:invalid:not(:placeholder-shown) + label {
-    color: #f00; }
+  padding-left: 10px;
+}
 
+main div.material input + label {
+  position: absolute;
+  font-size: 18px;
+  z-index: -1;
+  color: #aaa;
+  top: calc((46px - 27px)/2);
+  left: 8px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+main div.material input::-webkit-input-placeholder {
+  visibility: hidden !important;
+  opacity: 0;
+}
+
+main div.material input:-ms-input-placeholder {
+  visibility: hidden !important;
+  opacity: 0;
+}
+
+main div.material input::-ms-input-placeholder {
+  visibility: hidden !important;
+  opacity: 0;
+}
+
+main div.material input::placeholder {
+  visibility: hidden !important;
+  opacity: 0;
+}
+
+main div.material input:focus + label, main div.material input:not(:placeholder-shown) + label {
+  font-size: 14px;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  z-index: 1;
+  background: #fff;
+  color: #1a73e8;
+}
+
+main div.material input:invalid:not(:placeholder-shown) + label {
+  color: #f00;
+}
 /*# sourceMappingURL=input.css.map */

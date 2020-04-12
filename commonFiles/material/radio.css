@@ -3,55 +3,75 @@ main div.material.radio {
   position: relative;
   display: block;
   min-height: 40px;
-  width: 100%; }
-  main div.material.radio input[type=radio] {
-    position: absolute;
-    top: 8px;
-    left: 8px;
-    width: 32px;
-    height: 32px;
-    margin: 0px;
-    z-index: 1;
-    opacity: 0; }
-    main div.material.radio input[type=radio] + label {
-      position: absolute;
-      top: 10.5px;
-      left: 8px;
-      font-size: 18px;
-      display: flex;
-      align-items: center; }
-      main div.material.radio input[type=radio] + label::before {
-        font-family: 'Material Icons';
-        font-weight: normal;
-        font-style: normal;
-        font-size: 28px;
-        display: inline-block;
-        line-height: 1;
-        text-transform: none;
-        letter-spacing: normal;
-        word-wrap: normal;
-        white-space: nowrap;
-        direction: ltr;
-        /* Support for all WebKit browsers. */
-        -webkit-font-smoothing: antialiased;
-        /* Support for Safari and Chrome. */
-        text-rendering: optimizeLegibility;
-        /* Support for Firefox. */
-        -moz-osx-font-smoothing: grayscale;
-        /* Support for IE. */
-        font-feature-settings: 'liga';
-        content: "radio_button_unchecked";
-        transition: 500ms;
-        margin-right: 5px;
-        color: #aaa; }
-      main div.material.radio input[type=radio] + label::after {
-        content: attr(data-value); }
-    main div.material.radio input[type=radio]:checked + label::before {
-      color: #1a73e8;
-      content: "radio_button_checked"; }
-    main div.material.radio input[type=radio]:disabled + label {
-      color: #888; }
-      main div.material.radio input[type=radio]:disabled + label::before {
-        color: inherit; }
+  width: 100%;
+}
 
+main div.material.radio input[type=radio] {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 32px;
+  height: 32px;
+  margin: 0px;
+  z-index: 1;
+  opacity: 0;
+}
+
+main div.material.radio input[type=radio] + label {
+  position: absolute;
+  top: 10.5px;
+  left: 8px;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main div.material.radio input[type=radio] + label::before {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  -webkit-font-feature-settings: 'liga';
+          font-feature-settings: 'liga';
+  content: "radio_button_unchecked";
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  margin-right: 5px;
+  color: #aaa;
+}
+
+main div.material.radio input[type=radio] + label::after {
+  content: attr(data-value);
+}
+
+main div.material.radio input[type=radio]:checked + label::before {
+  color: #1a73e8;
+  content: "radio_button_checked";
+}
+
+main div.material.radio input[type=radio]:disabled + label {
+  color: #888;
+}
+
+main div.material.radio input[type=radio]:disabled + label::before {
+  color: inherit;
+}
 /*# sourceMappingURL=radio.css.map */

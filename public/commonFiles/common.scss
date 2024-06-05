@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru|M+PLUS+Rounded+1c|Noto+Sans+JP|Poppins|Sawarabi+Mincho&display=swap');
+
+*{
+	box-sizing: border-box;
+	font-family: "Poppins", 'Kosugi Maru', 'M PLUS Rounded 1c', "Noto Sans Japanese", sans-serif;
+}
+body{
+	margin: 0px;
+	padding: 16px;
+}
+main{
+	max-width: 600px;
+	width: 100%;
+	margin: auto;
+	box-shadow: 0px 0px 30px 0px #aaa;
+	padding: 24px;
+	background: #fff;
+	border-radius: 12px;
+	a{
+		color: #555;
+	}
+	h1, p.center{
+		text-align: center;
+	}
+	p.hint{
+		font-size: 12px;
+		color: #888;
+		margin-bottom: 16px;
+		margin-top: 4px;
+	}
+}
+main div.material:not(.chk):not(.radio){
+	margin: 20px auto;
+	margin-bottom: 4px;
+	border: 1px #aaa solid;
+	border-radius: 3px;
+	transition: .3s ease-in-out;
+	height: 48px;
+	width: 300px;
+	padding: 5px;
+	box-sizing: border-box;
+	position: relative;
+	*{
+		outline: 0;
+	}
+	p.msg{ display: none }
+}
+
+@media screen and (max-width: 680px){
+	main{
+		padding: 8px;
+		box-shadow: none;
+		border-radius: none;
+	}
+}

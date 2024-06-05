@@ -1,0 +1,28 @@
+{
+  "name": "a01sa01to.github.io",
+  "packageManager": "yarn@4.2.2",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "fix": "next lint --fix"
+  },
+  "dependencies": {
+    "@a01sa01to/ui": "^0.0.29",
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@a01sa01to/eslint-config": "^1.0.3",
+    "@types/eslint": "^8.56.10",
+    "@types/node": "^20.14.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^9.4.0",
+    "eslint-config-next": "^14.2.3",
+    "typescript": "^5.4.5"
+  }
+}

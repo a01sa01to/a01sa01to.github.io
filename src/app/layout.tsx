@@ -5,6 +5,7 @@ import { Body, Main, Header, HeaderLogo } from "@a01sa01to/ui";
 import "@a01sa01to/ui/style.css";
 
 import style from "./layout.module.css";
+import subsetChars from "./subsetdata";
 
 export const metadata: Metadata = {
   title: "Asa's Repository",
@@ -26,7 +27,9 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans:wght@400;500;700&display=swap"
+          href={`https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans:wght@400;500;700&display=swap&text=${encodeURIComponent(
+            subsetChars
+          )}`}
           rel="stylesheet"
         />
       </head>

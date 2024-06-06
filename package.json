@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "fix": "next lint --fix"
+    "fix": "next lint --fix",
+    "export-subsetting": "node ./scripts/export-subsetting.cjs"
   },
   "dependencies": {
     "@a01sa01to/ui": "^0.0.29",

@@ -4,7 +4,6 @@ import { Body, Main, Header, HeaderLogo } from "@a01sa01to/ui";
 
 import "@a01sa01to/ui/style.css";
 
-import style from "./layout.module.css";
 import subsetChars from "./subsetdata";
 
 export const metadata: Metadata = {
@@ -37,9 +36,11 @@ export default function RootLayout({
         <Header>
           <HeaderLogo>
             <img
-              src="https://github.com/a01sa01to.png?size=64"
+              src="https://github.com/a01sa01to.png?size=56"
               alt="a01sa01to"
-              className={style.prof}
+              width="56"
+              height="56"
+              style={{ borderRadius: "50%" }}
             />
             @a01sa01to&apos;s Repository
           </HeaderLogo>

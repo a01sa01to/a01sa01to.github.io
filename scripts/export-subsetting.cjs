@@ -29,6 +29,10 @@ newContent = newContent
 // layout.tsx
 newContent += "@a01sa01to's Repository";
 
+// not-found.tsx
+newContent +=
+  "404 Not Found The Requested Page is not found. Go to Home Go to GitHub (@a01sa01to)";
+
 // ソート
 newContent = newContent.split("").sort().join("");
 

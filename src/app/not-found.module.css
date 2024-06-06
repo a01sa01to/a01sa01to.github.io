@@ -1,0 +1,14 @@
+.code {
+  background-color: #e6e6e6;
+  color: #1a1a1a;
+  font-family: "Noto Sans Mono", monospace;
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.1rem;
+  line-height: 1.5;
+  word-break: break-all;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}

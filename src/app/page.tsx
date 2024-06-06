@@ -380,6 +380,16 @@ export default async function Home() {
             <td>ISUCON の練習</td>
             <td></td>
           </tr>
+          <tr>
+            <td>
+              <ReposLink name="sor4chi/isucon13" />
+            </td>
+            <td>
+              ISUCON13 の作業リポジトリ。 チーム「Maxif.」で 25 位 (学生チーム 5
+              位位) を取った。
+            </td>
+            <td></td>
+          </tr>
         </tbody>
       </Table>
       <Heading size="h3">Web Speed Hackathon</Heading>

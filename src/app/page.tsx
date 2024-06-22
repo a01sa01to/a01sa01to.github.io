@@ -432,6 +432,25 @@ export default async function Home() {
           </tr>
         </tbody>
       </Table>
+      <Heading size="h3">CTF</Heading>
+      <Table>
+        <thead>
+          <tr>
+            <th>Repository</th>
+            <th>Description</th>
+            <th>Preview</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <ReposLink name="a01sa01to/seccon-beginners-2024" />
+            </td>
+            <td>SECCON Beginners CTF 2024 の作業リポジトリ</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </Table>
       <Heading size="h3">Competitive Programming</Heading>
       <Table>
         <thead>

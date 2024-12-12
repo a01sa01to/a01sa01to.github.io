@@ -382,11 +382,26 @@ export default async function Home() {
           </tr>
           <tr>
             <td>
-              <ReposLink name="sor4chi/isucon13" />
+              <ReposLink name="a01sa01to/isucon-practice-20241020" />
+            </td>
+            <td>ISUCON の練習 (Private ISU, 2024-10-20)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <ReposLink name="isucon-maxif/isucon13" />
             </td>
             <td>
-              ISUCON13 の作業リポジトリ。 チーム「Maxif.」で 25 位 (学生チーム 5
-              位位) を取った。
+              ISUCON13 の作業リポジトリ。 チーム「Maxif.」で 25 位 (学生チーム 5 位) を取った。
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <ReposLink name="isucon-maxif/isucon14" />
+            </td>
+            <td>
+              ISUCON14 の作業リポジトリ。 チーム「Maxif.」で 29 位 (学生チーム 4 位) を取った。
             </td>
             <td></td>
           </tr>
@@ -529,6 +544,13 @@ export default async function Home() {
               <ReposLink name="a01sa01to/config" />
             </td>
             <td>自分用の設定ファイルたち</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <ReposLink name="a01sa01to/watch-face" />
+            </td>
+            <td>Wear OS の自作 Watch Face</td>
             <td></td>
           </tr>
         </tbody>

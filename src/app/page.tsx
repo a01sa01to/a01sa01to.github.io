@@ -445,6 +445,13 @@ export default async function Home() {
             <td>Web Speed Hackathon 2024</td>
             <td></td>
           </tr>
+          <tr>
+            <td>
+              ... + Many <ReposLink name="isucon-maxif" /> Organization Repositories
+            </td>
+            <td>その他練習で使ったリポジトリがたくさん</td>
+            <td></td>
+          </tr>
         </tbody>
       </Table>
       <Heading size="h3">CTF</Heading>

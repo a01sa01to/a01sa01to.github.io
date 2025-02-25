@@ -405,6 +405,13 @@ export default async function Home() {
             </td>
             <td></td>
           </tr>
+          <tr>
+            <td>
+              ... + Many <ReposLink name="isucon-maxif" /> Organization Repositories
+            </td>
+            <td>その他練習で使ったリポジトリがたくさん</td>
+            <td></td>
+          </tr>
         </tbody>
       </Table>
       <Heading size="h3">Web Speed Hackathon</Heading>
@@ -447,9 +454,16 @@ export default async function Home() {
           </tr>
           <tr>
             <td>
-              ... + Many <ReposLink name="isucon-maxif" /> Organization Repositories
+              <ReposLink name="a01sa01to/wsh2025-practice-2023" />
             </td>
-            <td>その他練習で使ったリポジトリがたくさん</td>
+            <td>Maximum 内の Web Speed Hackathon 2025 練習用に使った Web Speed Hackathon 2023 のリポジトリ</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <ReposLink name="a01sa01to/wsh2025-practice-2024" />
+            </td>
+            <td>Maximum 内の Web Speed Hackathon 2025 練習用に使った Web Speed Hackathon 2024 のリポジトリ</td>
             <td></td>
           </tr>
         </tbody>
@@ -907,8 +921,15 @@ export default async function Home() {
             <td></td>
           </tr>
           <tr>
-            <td>... + Many Private Repositories</td>
-            <td>ここには載せられない Private なリポジトリがたくさん</td>
+            <td>
+              <ReposLink name="saitamau-maximum/id" />
+            </td>
+            <td>Maximum の IdP</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>... + Many Repositories</td>
+            <td>ここには載せきれないリポジトリがたくさん</td>
             <td></td>
           </tr>
         </tbody>

@@ -37,7 +37,7 @@ export default async function Home() {
               <ReposLink name="a01sa01to/a01sa01to.github.io" />
             </td>
             <td>このサイト</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -74,7 +74,7 @@ export default async function Home() {
               (Private)
             </td>
             <td>a01sa01to.com のオープンデータ API の内部実装</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -83,7 +83,7 @@ export default async function Home() {
             <td>
               Twitter API をプロキシするための Cloudflare Workers のコード
             </td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -91,7 +91,7 @@ export default async function Home() {
               (Archived)
             </td>
             <td>2022 年まで使っていた Web サイトを Public にしたもの</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -99,7 +99,7 @@ export default async function Home() {
               (Archived)
             </td>
             <td>2022 年末まで使っていた Nuxt.js 2 製サイト</td>
-            <td></td>
+            <td />
           </tr>
         </tbody>
       </Table>
@@ -118,7 +118,7 @@ export default async function Home() {
               <ReposLink name="a01sa01to/IMEChange" />
             </td>
             <td>IME をスタートアップ時に切り替えるソフト</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -126,7 +126,7 @@ export default async function Home() {
               (Archived)
             </td>
             <td>スタディサプリの見た目を自分好みにする拡張機能</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -156,7 +156,7 @@ export default async function Home() {
               Discord で特定のチャンネルにメッセージを投稿すると自動で Thread
               を作成する bot
             </td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -166,7 +166,7 @@ export default async function Home() {
               競プロ用ターミナル。 C++ で開発していたがめんどくさくなったので
               PowerShell の関数として移植した。
             </td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -176,7 +176,7 @@ export default async function Home() {
               GitHub の通知を定期的に Slack に通知するための Cloudflare Workers
               のコード
             </td>
-            <td></td>
+            <td />
           </tr>
         </tbody>
       </Table>
@@ -236,7 +236,7 @@ export default async function Home() {
               (Archived)
             </td>
             <td>新型コロナ対策サイトのデータ更新用 旧スクレイパー</td>
-            <td></td>
+            <td />
           </tr>
         </tbody>
       </Table>
@@ -286,7 +286,7 @@ export default async function Home() {
               (Private)
             </td>
             <td>AtCoder に提出したコード</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -294,7 +294,7 @@ export default async function Home() {
               (Private)
             </td>
             <td>Aizu Online Judge に提出したコード</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -302,7 +302,7 @@ export default async function Home() {
               (Private)
             </td>
             <td>Codeforces に提出したコード</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -310,7 +310,7 @@ export default async function Home() {
               (Private)
             </td>
             <td>CodinGame に提出したコード</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -318,7 +318,7 @@ export default async function Home() {
               (Private)
             </td>
             <td>Project Euler を解くために使ったコード</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -326,7 +326,7 @@ export default async function Home() {
               (Private)
             </td>
             <td>ksnctf で使ったコードとか</td>
-            <td></td>
+            <td />
           </tr>
         </tbody>
       </Table>
@@ -345,21 +345,21 @@ export default async function Home() {
               <ReposLink name="a01sa01to/AHC-Tester" />
             </td>
             <td>AHC のテストを GitHub Actions で一気に動かすテンプレート</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
               <ReposLink name="a01sa01to/marathon-template" />
             </td>
             <td>テンプレート</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
               <ReposLink name="a01sa01to/ahc-archive" />
             </td>
             <td>各 AHC の作業リポジトリを Git Submodules としてまとめたもの</td>
-            <td></td>
+            <td />
           </tr>
         </tbody>
       </Table>
@@ -378,14 +378,14 @@ export default async function Home() {
               <ReposLink name="a01sa01to/isucon-practice-001" />
             </td>
             <td>ISUCON の練習</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
               <ReposLink name="a01sa01to/isucon-practice-20241020" />
             </td>
             <td>ISUCON の練習 (Private ISU, 2024-10-20)</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -394,7 +394,7 @@ export default async function Home() {
             <td>
               ISUCON13 の作業リポジトリ。 チーム「Maxif.」で 25 位 (学生チーム 5 位) を取った。
             </td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -403,14 +403,14 @@ export default async function Home() {
             <td>
               ISUCON14 の作業リポジトリ。 チーム「Maxif.」で 29 位 (学生チーム 4 位) を取った。
             </td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
               ... + Many <ReposLink name="isucon-maxif" /> Organization Repositories
             </td>
             <td>その他練習で使ったリポジトリがたくさん</td>
-            <td></td>
+            <td />
           </tr>
         </tbody>
       </Table>
@@ -429,42 +429,42 @@ export default async function Home() {
               <ReposLink name="a01sa01to/web-speed-hackathon-2022-practice" />
             </td>
             <td>Web Speed Hackathon の練習</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
               <ReposLink name="a01sa01to/web-speed-hackathon-2023" />
             </td>
             <td>Web Speed Hackathon 2023</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
               <ReposLink name="a01sa01to/wsh-practice-2022" />
             </td>
             <td>Maximum 内の Web Speed Hackathon 練習用に使ったリポジトリ</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
               <ReposLink name="a01sa01to/web-speed-hackathon-2024" />
             </td>
             <td>Web Speed Hackathon 2024</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
               <ReposLink name="a01sa01to/wsh2025-practice-2023" />
             </td>
             <td>Maximum 内の Web Speed Hackathon 2025 練習用に使った Web Speed Hackathon 2023 のリポジトリ</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
               <ReposLink name="a01sa01to/wsh2025-practice-2024" />
             </td>
             <td>Maximum 内の Web Speed Hackathon 2025 練習用に使った Web Speed Hackathon 2024 のリポジトリ</td>
-            <td></td>
+            <td />
           </tr>
         </tbody>
       </Table>
@@ -483,7 +483,7 @@ export default async function Home() {
               <ReposLink name="a01sa01to/seccon-beginners-2024" />
             </td>
             <td>SECCON Beginners CTF 2024 の作業リポジトリ</td>
-            <td></td>
+            <td />
           </tr>
         </tbody>
       </Table>
@@ -540,14 +540,14 @@ export default async function Home() {
               <br />
               Its README.md will appear on your public profile.
             </td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
               <ReposLink name="a01sa01to/skills-secure-code-game" />
             </td>
             <td>GitHub Skills の Secure Code Game</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -558,21 +558,21 @@ export default async function Home() {
               Zenn のデータ。 (今のところ)
               論文読みのメモとしか使ってないので記事はないです。
             </td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
               <ReposLink name="a01sa01to/config" />
             </td>
             <td>自分用の設定ファイルたち</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
               <ReposLink name="a01sa01to/watch-face" />
             </td>
             <td>Wear OS の自作 Watch Face</td>
-            <td></td>
+            <td />
           </tr>
         </tbody>
       </Table>
@@ -626,7 +626,7 @@ export default async function Home() {
               古めかしい古河中等の Web
               サイトを勝手にリニューアルしてみたプロジェクト
             </td>
-            <td></td>
+            <td />
           </tr>
         </tbody>
       </Table>
@@ -667,7 +667,7 @@ export default async function Home() {
             <td>
               文化祭展示用ブラウザ。いたずら防止のため全画面表示しかできない。使ってない。
             </td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -678,7 +678,7 @@ export default async function Home() {
               WebSocket サーバ。
               何かしらのアプリで使えると思ったが結局使わずじまい。
             </td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -689,7 +689,7 @@ export default async function Home() {
               URL 短縮サービス。 ルーティング設定を Firebase
               の設定ファイルに埋め込んでいるだけ。
             </td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -724,7 +724,7 @@ export default async function Home() {
               文化祭の各模擬店用の管理画面。
               現在では新しいシステムが使われているっぽい。
             </td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -735,7 +735,7 @@ export default async function Home() {
               文化祭で各模擬店用の待ち時間を表示するモニター。
               現在では新しいシステムが使われているっぽい。
             </td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -746,7 +746,7 @@ export default async function Home() {
               文化祭で使える電子マネー「KSS Pay」。 コロナで中止になってしまった
               (+ いろいろ問題がありそう) ので使わずに終わった。
             </td>
-            <td></td>
+            <td />
           </tr>
         </tbody>
       </Table>
@@ -813,7 +813,7 @@ export default async function Home() {
               <ReposLink name="a01sa01to/univ-colab" />
             </td>
             <td>講義で使った Jupyter Notebook たち</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -822,7 +822,7 @@ export default async function Home() {
             <td>
               「オブジェクト指向言語」の課題。 Java + JavaFX で作った電卓。
             </td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -832,7 +832,7 @@ export default async function Home() {
               「プログラミング演習 3」の課題。 C
               言語のソケット通信を使ったチャット。
             </td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -841,21 +841,21 @@ export default async function Home() {
             <td>
               「プログラミング演習 3」の課題。 OpenGL を使ったマインスイーパー。
             </td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
               <ReposLink name="a01sa01to/software-engineering-2023" />
             </td>
             <td>「ソフトウェア工学」の作業リポジトリ。</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
               <ReposLink name="a01sa01to/univ-compiler" />
             </td>
             <td>「コンパイラ」の課題</td>
-            <td></td>
+            <td />
           </tr>
         </tbody>
       </Table>
@@ -875,7 +875,7 @@ export default async function Home() {
               (Archived)
             </td>
             <td>内部用 DOMJudge を使っていた時に適当に作った問題</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -883,7 +883,7 @@ export default async function Home() {
               (Archived)
             </td>
             <td>Maximum 2022 の講習会のサンプルコード</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -918,19 +918,19 @@ export default async function Home() {
               <ReposLink name="saitamau-maximum/members" />
             </td>
             <td>Maximum の会員情報を一元管理するためのリポジトリ</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>
               <ReposLink name="saitamau-maximum/id" />
             </td>
             <td>Maximum の IdP</td>
-            <td></td>
+            <td />
           </tr>
           <tr>
             <td>... + Many Repositories</td>
             <td>ここには載せきれないリポジトリがたくさん</td>
-            <td></td>
+            <td />
           </tr>
         </tbody>
       </Table>

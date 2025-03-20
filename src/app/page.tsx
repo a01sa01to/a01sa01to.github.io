@@ -475,6 +475,13 @@ export default async function Home() {
             <td>Maximum 内の Web Speed Hackathon 2025 練習用に使った Web Speed Hackathon 2024 のリポジトリ</td>
             <td />
           </tr>
+          <tr>
+            <td>
+              <ReposLink name="a01sa01to/web-speed-hackathon-2025" />
+            </td>
+            <td>Web Speed Hackathon 2025</td>
+            <td />
+          </tr>
         </tbody>
       </Table>
       <Heading size="h3">CTF</Heading>

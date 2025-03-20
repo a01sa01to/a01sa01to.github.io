@@ -78,15 +78,6 @@ export default async function Home() {
           </tr>
           <tr>
             <td>
-              <ReposLink name="a01sa01to/cfw-tweetdata-fetcher" />
-            </td>
-            <td>
-              Twitter API をプロキシするための Cloudflare Workers のコード
-            </td>
-            <td />
-          </tr>
-          <tr>
-            <td>
               <ReposLink name="a01sa01to/my-website" />
               (Archived)
             </td>
@@ -99,6 +90,24 @@ export default async function Home() {
               (Archived)
             </td>
             <td>2022 年末まで使っていた Nuxt.js 2 製サイト</td>
+            <td />
+          </tr>
+          <tr>
+            <td>
+              <ReposLink name="a01sa01to/cms.a01sa01to.com" /> (Archived, Private)
+            </td>
+            <td>
+              a01sa01to.com のブログ記事とかを管理するための Static なサイト
+            </td>
+            <td />
+          </tr>
+          <tr>
+            <td>
+              <ReposLink name="a01sa01to/cfw-tweetdata-fetcher" /> (Archived)
+            </td>
+            <td>
+              Twitter API をプロキシするための Cloudflare Workers のコード
+            </td>
             <td />
           </tr>
         </tbody>

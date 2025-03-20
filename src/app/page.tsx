@@ -915,18 +915,18 @@ export default async function Home() {
           </tr>
           <tr>
             <td>
-              <ReposLink name="saitamau-maximum/auth" />
+              <ReposLink name="saitamau-maximum/auth" /> (Archived)
             </td>
-            <td>Maximum の統一認証システム</td>
+            <td>Maximum の統一認証システム。 IdP に移行した。</td>
             <td>
               <PreviewLink url="https://auth.maximum.vc/" />
             </td>
           </tr>
           <tr>
             <td>
-              <ReposLink name="saitamau-maximum/members" />
+              <ReposLink name="saitamau-maximum/members" /> (Archived)
             </td>
-            <td>Maximum の会員情報を一元管理するためのリポジトリ</td>
+            <td>Maximum の会員情報を一元管理するためのリポジトリ。 IdP に移行した。</td>
             <td />
           </tr>
           <tr>

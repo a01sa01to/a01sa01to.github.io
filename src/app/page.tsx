@@ -819,7 +819,7 @@ export default async function Home() {
         <tbody>
           <tr>
             <td>
-              <ReposLink name="a01sa01to/univ-colab" />
+              <ReposLink name="a01sa01to/univ-colab" /> (Private)
             </td>
             <td>講義で使った Jupyter Notebook たち</td>
             <td />

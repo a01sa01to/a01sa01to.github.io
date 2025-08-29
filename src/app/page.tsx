@@ -60,13 +60,12 @@ export default async function Home() {
           </tr>
           <tr>
             <td>
-              <ReposLink name="a01sa01to/admin.a01sa01to.com" />
-              (Private)
+              <ReposLink name="a01sa01to/cfw-og-fetcher" />
             </td>
-            <td>管理用 (というか自分用プライベートな) Web サイト</td>
             <td>
-              <PreviewLink url="https://admin.a01sa01to.com/" />
+              外部サイトの Open Graph を取得するための Cloudflare Workers のコード
             </td>
+            <td />
           </tr>
           <tr>
             <td>
@@ -100,6 +99,16 @@ export default async function Home() {
               a01sa01to.com のブログ記事とかを管理するための Static なサイト
             </td>
             <td />
+          </tr>
+          <tr>
+            <td>
+              <ReposLink name="a01sa01to/admin.a01sa01to.com" />
+              (Archived, Private)
+            </td>
+            <td>管理用 (というか自分用プライベートな) Web サイト。</td>
+            <td>
+              <PreviewLink url="https://admin.a01sa01to.com/" />
+            </td>
           </tr>
           <tr>
             <td>
@@ -303,6 +312,14 @@ export default async function Home() {
               (Private)
             </td>
             <td>Aizu Online Judge に提出したコード</td>
+            <td />
+          </tr>
+          <tr>
+            <td>
+              <ReposLink name="a01sa01to/yukicoder-archive" />
+              (Private)
+            </td>
+            <td>yukicoder に提出したコード</td>
             <td />
           </tr>
           <tr>
@@ -787,6 +804,17 @@ export default async function Home() {
             </td>
             <td>
               <PreviewLink url="https://chrome.google.com/webstore/detail/jnfpcbofkkehicfggjmhgaabheodhhpe/" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <ReposLink name="a01sa01to/univ-vis" />
+            </td>
+            <td>
+              大学の講義の TA で使っている、 AHC 風ビジュアライザ
+            </td>
+            <td>
+              <PreviewLink url="https://repos.a01sa01to.com/univ-vis/" />
             </td>
           </tr>
           <tr>

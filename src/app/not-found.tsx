@@ -33,13 +33,13 @@ export default function NotFound() {
         found.
       </p>
       <nav className={style.nav}>
-        <ButtonLink href="/" size="large" variant="primary">
+        <ButtonLink href="/" size="large" variant="solid-fill">
           Go to Home
         </ButtonLink>
         <ButtonLink
           href="https://github.com/a01sa01to"
           size="large"
-          variant="secondary"
+          variant="outline"
         >
           Go to GitHub (@a01sa01to)
         </ButtonLink>

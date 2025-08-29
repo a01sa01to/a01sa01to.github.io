@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import { Body, Main, Header, HeaderLogo } from "@a01sa01to/ui";
+import { Body, MainContainer, Header, HeaderLogo } from "@a01sa01to/ui";
 
 import "@a01sa01to/ui/style.css";
 
@@ -45,7 +45,7 @@ export default function RootLayout({
             @a01sa01to&apos;s Repository
           </HeaderLogo>
         </Header>
-        <Main>{children}</Main>
+        <MainContainer>{children}</MainContainer>
       </Body>
     </html>
   );

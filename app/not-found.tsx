@@ -15,8 +15,8 @@ export default function NotFound() {
       <title>404 Not Found | Asa&apos;s Repositories</title>
       <Heading size='h1'>404 Not Found</Heading>
       <p>
-        The Requested Page <code className={style.code}>{pathname}</code> is not
-        found.
+        The Requested Page <code className={style.code}>{pathname}</code> was
+        not found.
       </p>
       <nav className={style.nav}>
         <ButtonLink href='/' size='large' variant='solid-fill'>

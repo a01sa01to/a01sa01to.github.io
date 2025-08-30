@@ -63,7 +63,9 @@ export function Layout({
             @a01sa01to&apos;s Repositories
           </HeaderLogo>
         </Header>
-        <MainContainer>{children}</MainContainer>
+        <MainContainer>
+          <main>{children}</main>
+        </MainContainer>
         <ScrollRestoration />
         <Scripts />
       </Body>

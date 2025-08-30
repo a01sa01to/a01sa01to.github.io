@@ -32,9 +32,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@a01sa01to/ui@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "@a01sa01to/ui@npm:2.1.0"
+"@a01sa01to/ui@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "@a01sa01to/ui@npm:2.1.2"
   dependencies:
     clsx: "npm:^2.1.1"
     highlight.js: "npm:^11.11.1"
@@ -43,7 +43,7 @@ __metadata:
   peerDependencies:
     react: 19
     react-dom: 19
-  checksum: 10c0/6137edfc763cf2df8ef5f089b936c9d123eb280dd2d4190899870e718956ded60368f07ae1141c4862cf1b2cfa98a77a75a30a1ed87942e65908518191c55e3a
+  checksum: 10c0/387ed0f60f21baa8f2baa9a57d668837846c6ae56c932418354905aa9c1082f620b6822cff103c2dc549adf1920a89bd23d635a1c4f7e4526aa568a33c7a3bd7
   languageName: node
   linkType: hard
 
@@ -1348,7 +1348,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/globrex@npm:^0":
+"@types/globrex@npm:^0.1.4":
   version: 0.1.4
   resolution: "@types/globrex@npm:0.1.4"
   checksum: 10c0/e5c6f13b942b2b6de28e7a64fc4e5c5113d04ff2af6fa8cc744c7ec8e7601ce3a3b69f9be087936dbadf9f6021f31089f224bbc7b480c47d4a1f69bfe560e915
@@ -1567,12 +1567,12 @@ __metadata:
   dependencies:
     "@a01sa01to/eslint-config": "npm:^2.1.6"
     "@a01sa01to/prettier-config": "npm:^1.0.12"
-    "@a01sa01to/ui": "npm:^2.1.0"
+    "@a01sa01to/ui": "npm:^2.1.2"
     "@react-router/dev": "npm:^7.8.2"
     "@react-router/node": "npm:^7.8.2"
     "@react-router/serve": "npm:^7.8.2"
     "@types/eslint": "npm:^9.6.1"
-    "@types/globrex": "npm:^0"
+    "@types/globrex": "npm:^0.1.4"
     "@types/node": "npm:^24.3.0"
     "@types/react": "npm:^19.1.12"
     "@types/react-dom": "npm:^19.1.9"

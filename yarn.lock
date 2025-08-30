@@ -5,20 +5,30 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@a01sa01to/eslint-config@npm:^2.1.5":
-  version: 2.1.5
-  resolution: "@a01sa01to/eslint-config@npm:2.1.5"
+"@a01sa01to/eslint-config@npm:^2.1.6":
+  version: 2.1.6
+  resolution: "@a01sa01to/eslint-config@npm:2.1.6"
   dependencies:
-    "@eslint/js": "npm:^9.33.0"
+    "@eslint/js": "npm:^9.34.0"
     eslint-plugin-jsx-a11y: "npm:^6.10.2"
     eslint-plugin-react: "npm:^7.37.5"
     eslint-plugin-react-hooks: "npm:^5.2.0"
-    eslint-plugin-unused-imports: "npm:^4.1.4"
-    typescript: "npm:^5.9.2"
-    typescript-eslint: "npm:^8.39.0"
+    eslint-plugin-unused-imports: "npm:^4.2.0"
+    typescript-eslint: "npm:^8.40.0"
   peerDependencies:
     eslint: ^9
-  checksum: 10c0/145dfadc252be3dc3444114cf3a244cdbcda10b83f8039170cf2a6a20f4a473c8b99ae7237b295a7ad384f444f5c8d8b2f6c4a72535f5852bf0de68df472c49d
+    react: ^19
+    typescript: ^5
+  checksum: 10c0/7911e08c66eca0b3189692364033cbfb71e5abb70599d6cb764d4afa811f74fdbf8d8c6f673ef89e016619b615c61027b4ff4178fc450d881027d045e35e1ab4
+  languageName: node
+  linkType: hard
+
+"@a01sa01to/prettier-config@npm:^1.0.12":
+  version: 1.0.12
+  resolution: "@a01sa01to/prettier-config@npm:1.0.12"
+  peerDependencies:
+    prettier: ^3
+  checksum: 10c0/10a613fb34bb58ff805328785244a5f4a509722199f1e9be2c852ca6f1275700905c625f18bb3b071af0da6660cdcb19e50448bd446ef580f329e5b948a3540e
   languageName: node
   linkType: hard
 
@@ -623,7 +633,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.34.0, @eslint/js@npm:^9.33.0":
+"@eslint/js@npm:9.34.0, @eslint/js@npm:^9.34.0":
   version: 9.34.0
   resolution: "@eslint/js@npm:9.34.0"
   checksum: 10c0/53f1bfd2a374683d9382a6850354555f6e89a88416c34a5d34e9fbbaf717e97c2b06300e8f93e5eddba8bda8951ccab7f93a680e56ded1a3d21d526019e69bab
@@ -1311,7 +1321,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "a01sa01to.github.io@workspace:."
   dependencies:
-    "@a01sa01to/eslint-config": "npm:^2.1.5"
+    "@a01sa01to/eslint-config": "npm:^2.1.6"
+    "@a01sa01to/prettier-config": "npm:^1.0.12"
     "@a01sa01to/ui": "npm:^2.1.0"
     "@react-router/dev": "npm:^7.8.2"
     "@react-router/node": "npm:^7.8.2"
@@ -1321,6 +1332,7 @@ __metadata:
     "@types/react": "npm:^19.1.12"
     "@types/react-dom": "npm:^19.1.9"
     eslint: "npm:^9.34.0"
+    prettier: "npm:^3.6.2"
     react: "npm:^19.1.1"
     react-dom: "npm:^19.1.1"
     typescript: "npm:^5.9.2"
@@ -2600,7 +2612,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unused-imports@npm:^4.1.4":
+"eslint-plugin-unused-imports@npm:^4.2.0":
   version: 4.2.0
   resolution: "eslint-plugin-unused-imports@npm:4.2.0"
   peerDependencies:
@@ -5778,7 +5790,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript-eslint@npm:^8.39.0":
+"typescript-eslint@npm:^8.40.0":
   version: 8.41.0
   resolution: "typescript-eslint@npm:8.41.0"
   dependencies:

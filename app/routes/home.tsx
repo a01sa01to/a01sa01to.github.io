@@ -11,9 +11,9 @@ export default function Home() {
 
   return (
     <>
-      <title>Asa&apos;s Repository</title>
-      <meta name='description' content="@a01sa01to's GitHub Repository" />
-      <Heading size='h1'>a01sa01to&apos;s Repository List</Heading>
+      <title>Asa&apos;s Repositories</title>
+      <meta name='description' content="@a01sa01to's GitHub Repositoies" />
+      <Heading size='h1'>a01sa01to&apos;s Repositories List</Heading>
       <p>
         a01sa01to の GitHub リポジトリ一覧です。
         自分がかかわったプロジェクトも含まれています。

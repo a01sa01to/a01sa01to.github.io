@@ -60,7 +60,7 @@ export function Layout({
               height='56'
               style={{ borderRadius: '50%' }}
             />
-            @a01sa01to&apos;s Repository
+            @a01sa01to&apos;s Repositories
           </HeaderLogo>
         </Header>
         <MainContainer>{children}</MainContainer>

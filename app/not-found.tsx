@@ -12,7 +12,7 @@ export default function NotFound() {
 
   return (
     <>
-      <title>404 Not Found | Asa&apos;s Repository</title>
+      <title>404 Not Found | Asa&apos;s Repositories</title>
       <Heading size='h1'>404 Not Found</Heading>
       <p>
         The Requested Page <code className={style.code}>{pathname}</code> is not

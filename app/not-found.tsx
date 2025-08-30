@@ -1,10 +1,14 @@
-import { ButtonLink, Heading } from '@a01sa01to/ui/src'
-import { useLocation } from 'react-router'
+import { ButtonLink, Heading, configureAdapter } from '@a01sa01to/ui/src'
+import { Link as RouterLink, useLocation } from 'react-router'
 
-import style from '../not-found.module.css'
+import style from './not-found.module.css'
 
 export default function NotFound() {
   const { pathname } = useLocation()
+
+  configureAdapter('link', ({ href, ...props }) => (
+    <RouterLink {...props} to={href ?? ''} />
+  ))
 
   return (
     <>

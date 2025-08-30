@@ -19,6 +19,8 @@ import {
 import './global.scss'
 import subsetChars from './subsetdata'
 
+export { default as ErrorBoundary } from './not-found'
+
 export function Layout({
   children,
 }: Readonly<{

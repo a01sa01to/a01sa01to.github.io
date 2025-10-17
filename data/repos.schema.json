@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "description": "The title of the repository category (h2)"
+      },
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "description": "The title of the repository group (h3)"
+            },
+            "description": {
+              "type": "string"
+            },
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "repo": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "archived": {
+                    "type": "boolean"
+                  },
+                  "private": {
+                    "type": "boolean"
+                  }
+                },
+                "required": ["repo", "description"],
+                "additionalProperties": false
+              },
+              "minItems": 1
+            }
+          },
+          "required": ["title", "items"],
+          "additionalProperties": false
+        },
+        "minItems": 1
+      }
+    },
+    "required": ["title", "items"],
+    "additionalProperties": false
+  },
+  "minItems": 1
+}

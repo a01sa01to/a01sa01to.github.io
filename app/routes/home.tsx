@@ -1,6 +1,24 @@
+import { readFile } from 'node:fs/promises'
+import { resolve } from 'node:path'
+
 import { Heading, Link, Table } from '@a01sa01to/ui/src'
+import { load } from 'js-yaml'
+
+import type { ReposList } from '../../data/repos.schema'
+import { useLoaderData } from 'react-router'
+
+export const loader = async () => {
+  const file = await readFile(
+    resolve(import.meta.dirname, '..', '..', 'data', 'repos.yml'),
+    'utf-8'
+  )
+  const data = load(file) as ReposList
+  return data
+}
 
 export default function Home() {
+  const data = useLoaderData<typeof loader>()
+
   const ReposLink = ({ name }: { name: string }) => (
     <Link href={`https://github.com/${name}`}>{name}</Link>
   )
@@ -8,6 +26,10 @@ export default function Home() {
   const PreviewLink = ({ url }: { url: string }) => (
     <Link href={url}>{url}</Link>
   )
+
+  const PrivateLabel = () => <span>Private</span>
+
+  const ArchivedLabel = () => <span>Archived</span>
 
   return (
     <>
@@ -18,6 +40,40 @@ export default function Home() {
         a01sa01to の GitHub リポジトリ一覧です。
         自分がかかわったプロジェクトも含まれています。
       </p>
+      {data.map(section => (
+        <>
+          <Heading size='h2'>{section.title}</Heading>
+          {section.items.map(subsection => (
+            <>
+              <Heading size='h3'>{subsection.title}</Heading>
+              {subsection.description && <p>{subsection.description}</p>}
+              <Table>
+                <thead>
+                  <tr>
+                    <th>Repository</th>
+                    <th>Description</th>
+                    <th>Preview</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {subsection.items.map(item => (
+                    <tr key={item.repo}>
+                      <td>
+                        <ReposLink name={item.repo} />
+                        {item.private && <PrivateLabel />}
+                        {item.archived && <ArchivedLabel />}
+                      </td>
+                      <td>{item.description}</td>
+                      <td>{item.url && <PreviewLink url={item.url} />}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </Table>
+            </>
+          ))}
+        </>
+      ))}
+
       <Heading size='h2'>Personal</Heading>
       <Heading size='h3'>My Website</Heading>
       <Table>
@@ -29,50 +85,6 @@ export default function Home() {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>
-              <ReposLink name='a01sa01to/a01sa01to.github.io' />
-            </td>
-            <td>このサイト</td>
-            <td />
-          </tr>
-          <tr>
-            <td>
-              <ReposLink name='a01sa01to/a01sa01to.com' />
-              (Private)
-            </td>
-            <td>今使っている Web サイト</td>
-            <td>
-              <PreviewLink url='https://a01sa01to.com/' />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <ReposLink name='a01sa01to/ui' />
-            </td>
-            <td>UI コンポーネントライブラリ</td>
-            <td>
-              <PreviewLink url='https://repos.a01sa01to.com/ui/' />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <ReposLink name='a01sa01to/cfw-og-fetcher' />
-            </td>
-            <td>
-              外部サイトの Open Graph を取得するための Cloudflare Workers
-              のコード
-            </td>
-            <td />
-          </tr>
-          <tr>
-            <td>
-              <ReposLink name='a01sa01to/opendata-api' />
-              (Private)
-            </td>
-            <td>a01sa01to.com のオープンデータ API の内部実装</td>
-            <td />
-          </tr>
           <tr>
             <td>
               <ReposLink name='a01sa01to/my-website' />

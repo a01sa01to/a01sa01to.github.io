@@ -7,7 +7,7 @@
     "build": "react-router build",
     "lint": "eslint . && prettier --check .",
     "fix": "eslint . --fix && prettier --write .",
-    "export-subsetting": "node ./scripts/export-subsetting.cjs",
+    "export-subsetting": "node ./scripts/export-subsetting.mjs",
     "postinstall": "husky"
   },
   "dependencies": {

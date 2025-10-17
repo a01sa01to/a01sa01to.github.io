@@ -1,1 +1,2 @@
+yarn export-subsetting
 yarn lint-staged

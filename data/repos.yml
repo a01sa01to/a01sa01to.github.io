@@ -1,0 +1,296 @@
+- title: Personal
+  items:
+    - title: My Website
+      items:
+        - repo: a01sa01to/a01sa01to.github.io
+          description: このサイト
+        - repo: a01sa01to/a01sa01to.com
+          description: 今使っている Web サイト
+          url: https://a01sa01to.com
+          private: true
+        - repo: a01sa01to/ui
+          description: UI コンポーネントライブラリ
+          url: https://repos.a01sa01to.com/ui/
+        - repo: a01sa01to/cfw-og-fetcher
+          description: 外部サイトの Open Graph を取得するための Cloudflare Workers のコード
+        - repo: a01sa01to/opendata-api
+          description: a01sa01to.com のオープンデータ API の内部実装
+          private: true
+        - repo: a01sa01to/my-website
+          description: 2022 年まで使っていた Web サイトを Public にしたもの
+          archived: true
+        - repo: a01sa01to/my-website-2
+          description: 2022 年末まで使っていた Nuxt.js 2 製サイト
+          archived: true
+        - repo: a01sa01to/cms.a01sa01to.com
+          description: a01sa01to.com のブログ記事とかを管理するための Static なサイト
+          archived: true
+          private: true
+        - repo: a01sa01to/admin.a01sa01to.com
+          description: 管理用 (というか自分用プライベートな) Web サイト。
+          archived: true
+          private: true
+        - repo: a01sa01to/cfw-tweetdata-fetcher
+          description: Twitter API をプロキシするための Cloudflare Workers のコード
+          archived: true
+
+    - title: Utility
+      items:
+        - repo: a01sa01to/IMEChange
+          description: IME をスタートアップ時に切り替えるソフト
+        - repo: a01sa01to/StSapuri_Stylizer
+          description: スタディサプリの見た目を自分好みにする拡張機能
+          archived: true
+        - repo: a01sa01to/README-Maker
+          description: README のテンプレートを作る。 (Repository Template を使いましょう)
+          url: https://repos.a01sa01to.com/README-Maker/
+        - repo: a01sa01to/TitleAndURL_Picker
+          description: Markdown 向けにタイトルと URL を取得する拡張機能
+          url: https://chrome.google.com/webstore/detail/apegdmeimjlklboalimnaokfnnngajcg
+        - repo: a01sa01to/autothread-discord-bot
+          description: Discord で特定のチャンネルにメッセージを投稿すると自動で Thread を作成する bot
+        - repo: a01sa01to/competitive-terminal
+          description: 競プロ用ターミナル。 C++ で開発していたがめんどくさくなったので PowerShell の関数として移植した。
+        - repo: a01sa01to/cfw-ghnotifier
+          description: GitHub の通知を定期的に Slack に通知するための Cloudflare Workers のコード
+
+    - title: Game
+      items:
+        - repo: a01sa01to/NervousBreakdown
+          description: 神経衰弱
+          url: https://repos.a01sa01to.com/NervousBreakdown/
+          archived: true
+        - repo: a01sa01to/Code-AutoTyper
+          description: キーボードを適当に打つだけでコードが入力される遊びサイト
+          url: https://repos.a01sa01to.com/Code-AutoTyper/
+
+    - title: Civic Tech
+      items:
+        - repo: a01sa01to/covid19-ibaraki
+          description: 茨城県版 新型コロナウイルス対策サイト
+          url: https://ibaraki.stopcovid19.jp/
+        - repo: a01sa01to/cov19-ibaraki-scraping
+          description: 新型コロナ対策サイトのデータ更新用 旧スクレイパー
+          archived: true
+
+    - title: Sample
+      items:
+        - repo: a01sa01to/Grid-Centering
+          description: Grid のみで中央ぞろえ
+          url: https://repos.a01sa01to.com/Grid-Centering/
+
+    - title: Config
+      items:
+        - repo: a01sa01to/config
+          description: 自分用の Linter 系設定ファイルたち
+        - repo: a01sa01to/dotfiles
+          description: 自分用の dotfiles
+
+    - title: Backup
+      items:
+        - repo: a01sa01to/hackmd
+          description: HackMD の記事たち (主にコロナ禍の知事記者会見まとめ)
+          url: https://hackmd.io/@a01sa01to
+        - repo: a01sa01to/atcoder-archive
+          description: AtCoder に提出したコード
+          private: true
+        - repo: a01sa01to/aoj-archive
+          description: Aizu Online Judge に提出したコード
+          private: true
+        - repo: a01sa01to/yukicoder-archive
+          description: yukicoder に提出したコード
+          private: true
+        - repo: a01sa01to/codeforces-archive
+          description: Codeforces に提出したコード
+          private: true
+        - repo: a01sa01to/codingame-archive
+          description: CodinGame に提出したコード
+          private: true
+        - repo: a01sa01to/projecteuler-archive
+          description: Project Euler を解くために使ったコード
+          private: true
+        - repo: a01sa01to/ksnctf-archive
+          description: ksnctf で使ったコードとか
+          private: true
+
+    - title: Competitive Programming
+      items:
+        - repo: a01sa01to/cp-library
+          description: 競プロライブラリ。 Issue とかがごちゃごちゃしてるので Private にしているもののサイト自体は見れます
+          url: https://repos.a01sa01to.com/cp-library/
+          private: true
+        - repo: a01sa01to/cp-review
+          description: 競プロ復習ツール
+          url: https://repos.a01sa01to.com/cp-review/
+
+    - title: AtCoder Heuristic Contest
+      items:
+        - repo: a01sa01to/AHC-Tester
+          description: AHC のテストを GitHub Actions で一気に動かすテンプレート
+        - repo: a01sa01to/marathon-template
+          description: テンプレート
+        - repo: a01sa01to/ahc-archive
+          description: 各 AHC の作業リポジトリを Git Submodules としてまとめたもの
+
+    - title: Web Speed Hackathon
+      items:
+        - repo: a01sa01to/web-speed-hackathon-2022-practice
+          description: Web Speed Hackathon の練習
+        - repo: a01sa01to/web-speed-hackathon-2023
+          description: Web Speed Hackathon 2023
+        - repo: a01sa01to/wsh-practice-2022
+          description: Maximum 内の Web Speed Hackathon 練習用に使ったリポジトリ
+        - repo: a01sa01to/web-speed-hackathon-2024
+          description: Web Speed Hackathon 2024
+        - repo: a01sa01to/wsh2025-practice-2023
+          description: Maximum 内の Web Speed Hackathon 2025 練習用に使った Web Speed Hackathon 2023 のリポジトリ
+        - repo: a01sa01to/wsh2025-practice-2024
+          description: Maximum 内の Web Speed Hackathon 2025 練習用に使った Web Speed Hackathon 2024 のリポジトリ
+        - repo: a01sa01to/web-speed-hackathon-2025
+          description: Web Speed Hackathon 2025
+
+    - title: CTF
+      items:
+        - repo: a01sa01to/seccon-beginners-2024
+          description: SECCON Beginners CTF 2024 の作業リポジトリ
+
+    - title: Miscellaneous
+      items:
+        - repo: a01sa01to/a01sa01to
+          description: a01sa01to/a01sa01to is a special repository. Its README.md will appear on your public profile.
+        - repo: a01sa01to/skills-secure-code-game
+          description: GitHub Skills の Secure Code Game
+        - repo: a01sa01to/zenn
+          description: Zenn のデータ。 (今のところ) 論文読みのメモとしか使ってないので記事はないです。
+          private: true
+        - repo: a01sa01to/watch-face
+          description: Wear OS の自作 Watch Face
+
+- title: Koga Secondary School
+  items:
+    - title: My Projects
+      items:
+        - repo: a01sa01to/2018CulFesAccounting
+          description: 2018 年 文化祭 会計システム
+          url: https://repos.a01sa01to.com/2018CulFesAccounting/
+          archived: true
+        - repo: a01sa01to/Seat-Change
+          description: 席替えシステム
+          url: https://repos.a01sa01to.com/Seat-Change/
+          archived: true
+        - repo: a01sa01to/kss-bakakkoii-website
+          description: 「古河中等ばかっこいいシリーズ」の Web サイト
+          url: https://kss-bakakkoii.a01sa01to.com/
+          archived: true
+        - repo: a01sa01to/KSS-New
+          description: 古めかしい古河中等の Web サイトを勝手にリニューアルしてみたプロジェクト
+          archived: true
+
+    - title: KSS PC Club
+      items:
+        - repo: kss-pc-club/kss-pc-club.github.io
+          description: GitHub Pages
+          url: https://repos.kss-pc.club/
+        - repo: kss-pc-club/SchoolFest2019
+          description: 2019 年 文化祭 KSS PC Club ポータルサイト
+          url: https://repos.kss-pc.club/SchoolFest2019/
+          archived: true
+        - repo: kss-pc-club/KSS-Browser
+          description: 文化祭展示用ブラウザ。 いたずら防止のため全画面表示しかできない。 使ってない。
+          archived: true
+        - repo: kss-pc-club/websocket
+          description: WebSocket サーバ。 何かしらのアプリで使えると思ったが結局使わずじまい。
+          archived: true
+        - repo: kss-pc-club/shortener
+          description: URL 短縮サービス。 ルーティング設定を Firebase の設定ファイルに埋め込んでいるだけ。
+          private: true
+        - repo: kss-pc-club/firststep
+          description: KSS PC Club に参加したら最初にやることまとめ。 たぶん使ってなさそう
+          url: https://firststep.kss-pc.club/
+        - repo: kss-pc-club/typing
+          description: KSS PC Club 向けのタイピング練習。 プログラミング用語が多めに出てくる。
+          url: https://typing.kss-pc.club/
+        - repo: kss-pc-club/KSS-Fes-Admin
+          description: 文化祭の各模擬店用の管理画面。 現在では新しいシステムが使われているっぽい。
+          archived: true
+        - repo: kss-pc-club/Fes-Monitor
+          description: 文化祭で各模擬店用の待ち時間を表示するモニター。 現在では新しいシステムが使われているっぽい。
+          archived: true
+        - repo: kss-pc-club/kss-pay
+          description: 文化祭で使える電子マネー「KSS Pay」。 コロナで中止になってしまった (+ いろいろ問題がありそう) ので使わずに終わった。
+          archived: true
+
+- title: Saitama University
+  items:
+    - title: Utility
+      items:
+        - repo: a01sa01to/WebClass-PreventDL
+          description: WebClass に提出したレポートをダウンロードせずに閲覧できるようにする拡張機能
+          url: https://a01sa01to.com/apps/webclass-prevent-dl/
+        - repo: a01sa01to/univ-vis
+          description: 大学の講義の TA で使っている、 AHC 風ビジュアライザ
+          url: https://repos.a01sa01to.com/univ-vis/
+        - repo: a01sa01to/SaitamaUniv-WakameNavi
+          description: GenbuHase 作、埼玉大学周辺を走るバスの運行情報を確認できるサイト「わかめナビ」の Fork。 PR を投げた。
+          url: https://wakame-navi.vercel.app/
+        - repo: a01sa01to/vscode-vtm-syntax
+          description: 「計算論」で使ったバーチャルチューリングマシンの VSCode Syntax
+          url: https://marketplace.visualstudio.com/items?itemName=a01sa01to.vtm-syntax
+
+    - title: Homeworks
+      items:
+        - repo: a01sa01to/univ-colab
+          description: 講義で使った Jupyter Notebook たち
+          private: true
+        - repo: a01sa01to/java-calculator
+          description: 「オブジェクト指向言語」の課題。 Java + JavaFX で作った電卓。
+        - repo: a01sa01to/c-chat
+          description: 「プログラミング演習 3」の課題。 C 言語のソケット通信を使ったチャット。
+        - repo: a01sa01to/opengl-minesweeper
+          description: 「プログラミング演習 3」の課題。 OpenGL を使ったマインスイーパー。
+        - repo: a01sa01to/software-engineering-2023
+          description: 「ソフトウェア工学」の作業リポジトリ。
+        - repo: a01sa01to/univ-compiler
+          description: 「コンパイラ」の課題
+
+    - title: Maximum
+      description: ここには載せきれないほどリポジトリがたくさん
+      items:
+        - repo: a01sa01to/Maximum-Problems-2022
+          description: 内部用 DOMJudge を使っていた時に適当に作った問題
+          archived: true
+        - repo: saitamau-maximum/Maximum2022
+          description: Maximum 2022 の講習会のサンプルコード
+          archived: true
+        - repo: saitamau-maximum/icpc-prelim-system
+          description: ICPC 国内予選のシステムを練習用に作った
+          url: https://saitamau-maximum.github.io/icpc-prelim-system/
+          archived: true
+        - repo: saitamau-maximum/algori-2023
+          description: NTT 東日本が開催する大会「ALGORI」に提出したコード
+          archived: true
+        - repo: saitamau-maximum/auth
+          description: Maximum の統一認証システム。 IdP に移行した。
+          archived: true
+        - repo: saitamau-maximum/members
+          description: Maximum の会員情報を一元管理するためのリポジトリ。 IdP に移行した。
+          archived: true
+        - repo: saitamau-maximum/id
+          description: Maximum の IdP
+          url: https://id.maximum.vc/
+
+- title: ISUCON
+  items:
+    - title: Practice
+      items:
+        - repo: a01sa01to/isucon-practice-001
+          description: ISUCON の練習
+        - repo: a01sa01to/isucon-practice-20241020
+          description: ISUCON の練習 (Private ISU, 2024-10-20)
+    - title: Contests
+      description: isucon-maxif Organization には、練習で使ったリポジトリがいくつかあります
+      items:
+        - repo: isucon-maxif/isucon13
+          description: ISUCON13 の作業リポジトリ。 チーム「Maxif.」で 25 位 (学生チーム 5 位) を取った。
+        - repo: isucon-maxif/isucon14
+          description: ISUCON14 の作業リポジトリ。 チーム「Maxif.」で 29 位 (学生チーム 4 位) を取った。

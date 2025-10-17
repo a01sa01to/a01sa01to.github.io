@@ -11,6 +11,9 @@
         - repo: a01sa01to/ui
           description: UI コンポーネントライブラリ
           url: https://repos.a01sa01to.com/ui/
+        - repo: a01sa01to/status.a01sa01to.com
+          description: リアルタイムとは限らないけど、 Asa が何してるかわかるサイト
+          url: https://status.a01sa01to.com/
         - repo: a01sa01to/cfw-og-fetcher
           description: 外部サイトの Open Graph を取得するための Cloudflare Workers のコード
         - repo: a01sa01to/opendata-api
@@ -78,6 +81,7 @@
         - repo: a01sa01to/Grid-Centering
           description: Grid のみで中央ぞろえ
           url: https://repos.a01sa01to.com/Grid-Centering/
+          archived: true
 
     - title: Config
       items:
@@ -122,6 +126,8 @@
         - repo: a01sa01to/cp-review
           description: 競プロ復習ツール
           url: https://repos.a01sa01to.com/cp-review/
+        - repo: a01sa01to/compro-test-server
+          description: AtCoder Easy Test v2 の Local Server として使える Docker イメージ
 
     - title: AtCoder Heuristic Contest
       items:
@@ -136,23 +142,25 @@
       items:
         - repo: a01sa01to/web-speed-hackathon-2022-practice
           description: Web Speed Hackathon の練習
+          archived: true
         - repo: a01sa01to/web-speed-hackathon-2023
           description: Web Speed Hackathon 2023
+          archived: true
         - repo: a01sa01to/wsh-practice-2022
           description: Maximum 内の Web Speed Hackathon 練習用に使ったリポジトリ
+          archived: true
         - repo: a01sa01to/web-speed-hackathon-2024
           description: Web Speed Hackathon 2024
-        - repo: a01sa01to/wsh2025-practice-2023
-          description: Maximum 内の Web Speed Hackathon 2025 練習用に使った Web Speed Hackathon 2023 のリポジトリ
-        - repo: a01sa01to/wsh2025-practice-2024
-          description: Maximum 内の Web Speed Hackathon 2025 練習用に使った Web Speed Hackathon 2024 のリポジトリ
+          archived: true
         - repo: a01sa01to/web-speed-hackathon-2025
           description: Web Speed Hackathon 2025
+          archived: true
 
     - title: CTF
       items:
         - repo: a01sa01to/seccon-beginners-2024
           description: SECCON Beginners CTF 2024 の作業リポジトリ
+          archived: true
 
     - title: Miscellaneous
       items:
@@ -241,17 +249,23 @@
       items:
         - repo: a01sa01to/univ-colab
           description: 講義で使った Jupyter Notebook たち
+          archived: true
           private: true
         - repo: a01sa01to/java-calculator
           description: 「オブジェクト指向言語」の課題。 Java + JavaFX で作った電卓。
+          archived: true
         - repo: a01sa01to/c-chat
           description: 「プログラミング演習 3」の課題。 C 言語のソケット通信を使ったチャット。
+          archived: true
         - repo: a01sa01to/opengl-minesweeper
           description: 「プログラミング演習 3」の課題。 OpenGL を使ったマインスイーパー。
+          archived: true
         - repo: a01sa01to/software-engineering-2023
           description: 「ソフトウェア工学」の作業リポジトリ。
+          archived: true
         - repo: a01sa01to/univ-compiler
           description: 「コンパイラ」の課題
+          archived: true
 
     - title: Maximum
       description: ここには載せきれないほどリポジトリがたくさん
@@ -285,8 +299,10 @@
       items:
         - repo: a01sa01to/isucon-practice-001
           description: ISUCON の練習
+          archived: true
         - repo: a01sa01to/isucon-practice-20241020
           description: ISUCON の練習 (Private ISU, 2024-10-20)
+          archived: true
     - title: Contests
       description: isucon-maxif Organization には、練習で使ったリポジトリがいくつかあります
       items:

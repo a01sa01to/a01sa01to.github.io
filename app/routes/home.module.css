@@ -1,0 +1,21 @@
+.label {
+  /* @include _internal_typography(14, 400, 100, 2); */
+  font-size: 0.875rem;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  border-radius: 1rem;
+  padding: 0.125rem 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.private {
+  border: 1px solid #1d8b56; /* green-700 */
+  background-color: #e6f5ec; /* green-50 */
+  color: #08351f; /* green-1100 */
+}
+
+.archived {
+  border: 1px solid #a58000; /* yellow-800 */
+  background-color: #fbf5e0; /* yellow-50 */
+  color: #6e5600; /* yellow-1100 */
+}

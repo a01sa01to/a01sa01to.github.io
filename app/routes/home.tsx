@@ -2,12 +2,13 @@ import { readFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 
 import { Fragment } from 'react'
+import { useLoaderData } from 'react-router'
 
 import { Heading, Link, Table } from '@a01sa01to/ui/src'
 import { load } from 'js-yaml'
 
 import type { ReposList } from '../../data/repos.schema'
-import { useLoaderData } from 'react-router'
+import styles from './home.module.css'
 
 export const loader = async () => {
   const file = await readFile(
@@ -18,20 +19,22 @@ export const loader = async () => {
   return data
 }
 
+const ReposLink = ({ name }: { name: string }) => (
+  <Link href={`https://github.com/${name}`}>{name}</Link>
+)
+
+const PreviewLink = ({ url }: { url: string }) => <Link href={url}>{url}</Link>
+
+const PrivateLabel = () => (
+  <span className={[styles.label, styles.private].join(' ')}>Private</span>
+)
+
+const ArchivedLabel = () => (
+  <span className={[styles.label, styles.archived].join(' ')}>Archived</span>
+)
+
 export default function Home() {
   const data = useLoaderData<typeof loader>()
-
-  const ReposLink = ({ name }: { name: string }) => (
-    <Link href={`https://github.com/${name}`}>{name}</Link>
-  )
-
-  const PreviewLink = ({ url }: { url: string }) => (
-    <Link href={url}>{url}</Link>
-  )
-
-  const PrivateLabel = () => <span>Private</span>
-
-  const ArchivedLabel = () => <span>Archived</span>
 
   return (
     <>

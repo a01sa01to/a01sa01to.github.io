@@ -95,6 +95,9 @@
         - repo: a01sa01to/hackmd
           description: HackMD の記事たち (主にコロナ禍の知事記者会見まとめ)
           url: https://hackmd.io/@a01sa01to
+        - repo: a01sa01to/cp-archive-common
+          description: 競プロコードアーカイブ集の共通部分
+          private: true
         - repo: a01sa01to/atcoder-archive
           description: AtCoder に提出したコード
           private: true

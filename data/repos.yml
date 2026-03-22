@@ -158,6 +158,9 @@
         - repo: a01sa01to/web-speed-hackathon-2025
           description: Web Speed Hackathon 2025
           archived: true
+        - repo: a01sa01to/web-speed-hackathon-2026
+          description: Web Speed Hackathon 2026
+          archived: true
 
     - title: CTF
       items:
